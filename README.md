@@ -31,3 +31,6 @@ Coloca tus pruebas en la carpeta `tests/` y ejecútalas con:
 ```bash
 python -m unittest discover tests
 ```
+
+# mcp-arena-25
+Proyecto de ejemplo MCP para operaciones financieras y utilidades.
