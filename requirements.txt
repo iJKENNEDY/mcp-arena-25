@@ -1,3 +1,5 @@
 mcp
 asyncio
 mcp[cli]
+GitPython
+aiohttp
