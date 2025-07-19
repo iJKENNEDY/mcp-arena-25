@@ -33,7 +33,7 @@ class MemoryBank:
         """
         self.conn.execute(
             "INSERT INTO memories (category, content, importance, created_at) VALUES (?, ?, ?, ?)",
-            (category, content, importance, datetime.now())
+            (category, content, importance, datetime.now().isoformat())
         )
         self.conn.commit()
 
@@ -142,6 +142,6 @@ async def handle_call_tool(name: str, arguments: Dict[str, Any]) -> Any:
     raise ValueError(f"Unknown tool: {name}")
 
 # Example usage:
-# result = memory_bank.store_memory("project", "Finish MCP101", 8)
-# memories = memory_bank.recall_memories("project", 5)
+result = memory_bank.store_memory("project", "Finish MCP101", 8)
+memories = memory_bank.recall_memories("project", 5)
 

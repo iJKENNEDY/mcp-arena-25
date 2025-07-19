@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "memory-bank": {
+      "command": "python",
+      "args": ["C:\\Users\\qwerty\\Documents\\PYTHON_code\\mcp25\\mcp101\\mcp_memoryBank.py"],
+      "cwd": "C:\\Users\\qwerty\\Documents\\PYTHON_code\\mcp25\\mcp101\\examples-medium"
+    }
+  }
+}
